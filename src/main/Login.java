@@ -271,7 +271,7 @@ static String NAME;
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 if(id.getText().equals("")||pass.getText().equals("")){
-    JOptionPane.showMessageDialog(null,"Complete Your Login Information","Missing Information",2);
+    JOptionPane.showMessageDialog(null,"Complete Your Login Information to proceed","Missing Information",2);
 }else {
     String sql = "select ID,NAME,PASSWORD from users where ID='"+id.getText()+"' ";
     try{
