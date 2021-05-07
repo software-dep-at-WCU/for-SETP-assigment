@@ -326,7 +326,7 @@ if(id.getText().equals("")||name.getText().equals("")||day.getSelectedIndex()==0
 month.getSelectedIndex()==0||year.getSelectedIndex()==0||address.getText().equals("")||
     phone.getText().equals("")||password.getText().equals("")||
         salary.getText().equals("")){
-  JOptionPane.showMessageDialog(null,"Complete Your Information","Missing Information",2); 
+  JOptionPane.showMessageDialog(null,"Complete Your Information to procced","Missing Information",2); 
 }
 else if(!checkid()){
     if(password.getText().length()<6){
