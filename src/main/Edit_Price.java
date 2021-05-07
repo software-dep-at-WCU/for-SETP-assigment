@@ -256,7 +256,7 @@ try{
     if(res!=null){
        jTable1.setModel(DbUtils.resultSetToTableModel(res)); 
     }else{
-     JOptionPane.showMessageDialog(null,"There is no drugs such this barcode","Not Found",2);   
+     JOptionPane.showMessageDialog(null,"There is no drugs such this barcode...","Not Found",2);   
     }
 }catch(Exception e){
     JOptionPane.showMessageDialog(null,e.getMessage(),"Error",2);
